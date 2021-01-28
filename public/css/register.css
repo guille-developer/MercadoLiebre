@@ -1,0 +1,63 @@
+.formularioRegister{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.formularioRegister label{
+    width: 100%;
+    
+}
+.formularioRegister p{
+    width: 100%;
+    padding: 1vh;
+}
+.categoriasDiv label{
+    width: 10%;
+}
+
+
+.perfilUsuarioDiv label{
+    width: 20%;
+}
+
+
+.botonesContainer{
+    width: 100%;
+}
+
+
+.formlabel{
+    margin: 1vh;
+}
+
+
+.textInput{
+    width: 50vw;
+    margin: 1vh;
+}
+
+
+.categoriasDiv p {
+
+}
+
+
+h4{
+    width: 100vw;    margin: 1vh;
+
+}
+
+
+h1{
+    width: 100vw;    margin: 1vh;
+
+
+}
+.botonesContainer button{
+    border-radius: 5px;border: solid 1px;padding: 0.1vw;
+}
+
+.botonesContainer button:hover{
+    background-color: #3359f0;
+    color: white;
+}

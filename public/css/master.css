@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.descripcion {
+    opacity: 0%;
+    max-width: 100%;
+}
+
+.descripcion:hover {
+    opacity: 100%;
+}
+
+.producto:hover{
+    box-shadow: rgba(0.1, 0.1, 0.1, 0.1) 20px 20px 20px 20px
+}
+@keyframes rotacion{
+    0%{
+        transform:  rotate(360deg)
+
+    };
+    100%{
+        transform:  rotate(0deg)
+    }
+}
+
+
+.tractor:hover{
+    animation: rotacion;
+    animation-duration: 1s;
+
+
+}
+
+
+
+html {
+    font-size: 12px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.precio {
+    font-size: 1.5rem;
+    padding: 1vw;
+    flex-grow: 0.7;
+}
+
+
+.descuento {
+    color: green;
+    padding: 1vw;
+}
+
+article {
+    text-align: center;
+}
+
+
+
+.footer_titulo {
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.footer_detalle {
+    font-size: 12px;
+    text-align: center;
+}
+
+.iconos_footer {
+    text-align: center;
+}
+
+
+main {
+    padding-top: 75px;
+    text-align: center;
+    background-color: #ebebeb;
+}
+
+article {
+    margin-bottom: 10px;
+
+}
+
+main section article i {
+
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: relative;
+    color: green;
+
+
+}
+
+
+
+.precio-descuento-descripcion {
+    padding: 15px;
+    margin: auto;
+    text-align: left;
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.detalle-precio {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+i {}
+
+
+
+
+
+
+footer {
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.descripcion {
+    display: none;
+    max-width: 100%;
+
+}
+
+
+.articulos {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.titulo {
+    width: 100%;
+}
+
+
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    max-width: 100%;
+}
+
+.icono {
+    display: flex;
+    align-self: flex-end;
+    justify-self: flex-end;
+
+}
+
+
+@media(min-width:361px) {
+    .descripcion {
+        display: block;
+        max-width: 100%;
+font-size: 1.2rem;
+        flex-grow: 1;
+    }
+
+
+    .articulos {
+
+        display: flex;
+        flex-direction: row;
+
+
+    }
+
+    article {
+
+
+        width: 50%;
+        padding: 1vw;
+    }
+
+
+
+}
+
+
+
+@media(min-width:700px) {
+    .descripcion {
+        
+        width: 100%;
+    }
+
+    html {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    article {
+
+
+        max-width: 25%;
+        padding: 1vw;
+    }
+
+    .precio {
+        font-size: 1rem;
+    }
+
+    .descuento {
+        font-size: 1rem;
+    }
+
+
+
+    .precio-descuento-descripcion {
+        padding: 5px;
+        max-width: 100%;
+        white-space: nowrap;
+    }
+
+
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footerElement{
+        width: 30%;
+    }
+
+
+    .copirigth{
+        width: 100%;
+        margin: 1%;
+    }
+}

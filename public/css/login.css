@@ -1,0 +1,17 @@
+form{
+    margin-top: 5vw;
+}
+
+
+.formularioRegister{
+padding: 10px;
+}
+.botonesContainer button{
+    border-radius: 5px;border: solid 1px;padding: 0.1vw;
+}
+.botonesContainer button:hover{
+    background-color: #3359f0;
+    color: white;
+}
+
+

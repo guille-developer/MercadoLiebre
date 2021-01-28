@@ -1,0 +1,79 @@
+header {
+    text-align: center;
+    padding: 1vw;
+    position: fixed;
+    background-color: #EAC926;
+    width: 100vw;
+    z-index: 10;
+}
+
+
+#burger_menu {
+    text-align: center;
+    background-color: #1259c3;
+    display: inline;
+    color: #FFF;
+
+
+}
+
+#icono_mercadolibre {
+    width: 40%;
+    display: inline;
+}
+
+
+.navlinks{
+    justify-content: center;
+    display: none;
+    list-style: none;
+}
+
+
+.navlinks li{
+    padding: 1vw
+}
+
+.barrabusqueda{
+    display: block;
+    margin: 1vw;
+}
+
+.busquedafield{
+    display: inline;
+}
+
+.textBarraBusqueda{
+    display: inline;
+}
+
+@media(min-width:700px) {
+    #icono_mercadolibre {
+        width: 10%;
+        display: inline;
+    }
+
+    nav{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+
+    .navlinks{
+        display: flex;
+    }
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #centerburgercontainer{
+        margin-top: auto;
+        margin-bottom: auto;
+        
+    }
+    .compraencoutastext{
+        margin: 1vw;
+    }
+    
+}
