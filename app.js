@@ -14,5 +14,6 @@ app.get("/registrarse", function(req, res){
 app.get("/login", function(req, res){
     res.sendFile(path.join(__dirname, "/views/login.html"))
 })
+app.set('puerto', process.env.PORT || 3001);
 
-app.listen(app.set('puerto', process.env.PORT||3000), ()=> console.log('corriendo en 3000'))
+app.listen (app.get('puerto'), ()=> console.log(`Servidor corriendo de manera satisfactoria  ${app.get('puerto')}` ));
