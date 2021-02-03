@@ -2,13 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: 'Roboto', sans-serif;
 }
 
-.descripcion {
-    opacity: 0%;
-    max-width: 100%;
-}
 
 .descripcion:hover {
     opacity: 100%;
@@ -84,7 +80,7 @@ article {
 
 
 main {
-    padding-top: 75px;
+    padding-top: 100px;
     text-align: center;
     background-color: #ebebeb;
 }
@@ -148,7 +144,7 @@ img {
 .descripcion {
     display: none;
     max-width: 100%;
-
+    font-size: 1rem;
 }
 
 
@@ -161,14 +157,17 @@ img {
 
 .titulo {
     width: 100%;
+    font-weight: bolder;
 }
 
 
 
 .productos {
+    padding-top: 1vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 article {
@@ -187,7 +186,7 @@ article {
     .descripcion {
         display: block;
         max-width: 100%;
-font-size: 1.2rem;
+font-size: 2rem;
         flex-grow: 1;
     }
 
@@ -213,7 +212,7 @@ font-size: 1.2rem;
 
 
 
-@media(min-width:700px) {
+@media(min-width:600px) {
     .descripcion {
         
         width: 100%;
@@ -231,11 +230,11 @@ font-size: 1.2rem;
     }
 
     .precio {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .descuento {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
 

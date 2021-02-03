@@ -1,11 +1,25 @@
+
+*{
+    box-sizing: border-box;
+}
+
 header {
+    display: flex;
     text-align: center;
     padding: 1vw;
     position: fixed;
     background-color: #EAC926;
     width: 100vw;
     z-index: 10;
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 100px;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
 
 
 #burger_menu {
@@ -41,13 +55,16 @@ header {
 
 .busquedafield{
     display: inline;
+    border-radius: 3px;
+    border-style: none;
 }
 
 .textBarraBusqueda{
     display: inline;
 }
 
-@media(min-width:700px) {
+@media(min-width:600px) {
+   
     #icono_mercadolibre {
         width: 10%;
         display: inline;
@@ -55,7 +72,7 @@ header {
 
     nav{
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: nowrap; justify-content: center;
     }
 
 
@@ -64,8 +81,9 @@ header {
     }
     header{
         display: flex;
-        flex-wrap: wrap;
-        
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
     }
     #centerburgercontainer{
         margin-top: auto;

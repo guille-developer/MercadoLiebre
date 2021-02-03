@@ -17,3 +17,14 @@ app.get("/login", function(req, res){
 app.set('puerto', process.env.PORT || 3001);
 
 app.listen (app.get('puerto'), ()=> console.log(`Servidor corriendo de manera satisfactoria  ${app.get('puerto')}` ));
+
+
+
+
+let productos = ['Helado 1/4 kg', 'Franui Chocolate Negro', 'Surtido Chocolate 1/2kg'];
+       let carritoController = {
+          
+         checkout: function (req,res){ items = productos,
+             res.render(checkout,{items:items});
+         }
+     }
