@@ -6,6 +6,10 @@
 }
 
 
+a:hover{
+    color: gray;
+}
+
 .descripcion:hover {
     opacity: 100%;
 }
@@ -24,13 +28,12 @@
 }
 
 
-.tractor:hover{
+.tractor i:hover{
     animation: rotacion;
     animation-duration: 1s;
 
 
 }
-
 
 
 html {
@@ -76,6 +79,10 @@ article {
 
 .iconos_footer {
     text-align: center;
+}
+
+.iconos_footer:hover{
+    color: blue;
 }
 
 
@@ -145,6 +152,7 @@ img {
     display: none;
     max-width: 100%;
     font-size: 1rem;
+    opacity: 0;
 }
 
 

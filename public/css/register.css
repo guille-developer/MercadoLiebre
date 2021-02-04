@@ -41,6 +41,9 @@
     border-style: none;
 }
 
+.iconos_footer:hover{
+    color: blue;
+}
 
 .categoriasDiv p {
 

@@ -36,6 +36,9 @@ footer {
 .iconos_footer {
     text-align: center;
 }
+.iconos_footer:hover{
+    color: blue;
+}
 
 @media(min-width:600px) {
     footer{
